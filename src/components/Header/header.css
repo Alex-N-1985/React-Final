@@ -1,0 +1,35 @@
+header {
+    width: 1555px;
+    height: 111px;
+    background-color: #F3F6EF;
+    border: 1.5px solid #2F2A37;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.hlogo {
+    margin: 10px 0px;
+}
+
+.hmenu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hmenu li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2F2A37;
+    text-decoration: none;
+}
+
+.langsel {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2F2A37;
+}
