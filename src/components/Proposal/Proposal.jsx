@@ -29,7 +29,7 @@ const Proposal = () => {
             <div className="proposal__foryou-container">
                 <h3>Точно подойдет для:</h3>
                 {propCardData.map((item, index) => 
-                    <PropCard name={item.name} text={item.text} />
+                    <PropCard key={index} name={item.name} text={item.text} />
                 )}
             </div>
             <img src={ilustration} alt="" />

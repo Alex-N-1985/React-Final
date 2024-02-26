@@ -1,22 +1,13 @@
 import './App.css';
-import Header from './components/Header/header';
-import Footer from './components/Footer/Footer';
-import Poster from './components/Poster/Poster';
-import ForYou from './components/ForYou/ForYou';
-import Possibilities from './components/Possibilities/Possibilities';
-import Proposal from './components/Proposal/Proposal';
+import {Route, Routes} from 'react-router';
+import Home from './pages/Home';
 
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Poster/>
-      <ForYou/>
-      <Possibilities/>
-      <Proposal/>
-      <Footer/>
-    </div>
-  );
+  return <>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+    </Routes>
+  </>;
 }
 
 export default App;
