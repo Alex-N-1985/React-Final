@@ -2,6 +2,8 @@ header {
     width: 1555px;
     height: 111px;
     background-color: #F3F6EF;
+    z-index: 2;
+    opacity: 1;
     border: 1.5px solid #2F2A37;
     display: flex;
     justify-content: space-around;

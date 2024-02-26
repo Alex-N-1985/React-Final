@@ -4,6 +4,7 @@ article {
     gap: 50px;
     justify-content: space-around;
     align-items: center;
+    opacity: 1;
 }
 
 .foryou__content {

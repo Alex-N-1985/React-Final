@@ -1,0 +1,73 @@
+.Possibil {
+    width: 1555px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F3F6EF;
+    opacity: 0.8;
+}
+
+.Possibil  h2 {
+    width: 550px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #2F2A37;
+    text-align: center;
+}
+
+.poscards__container {
+    width: 95%;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.Possibil p {
+    width: 900px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #6E6C72;
+    text-align: center;
+  }
+
+.btnTryFree {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2F2A37;
+    width: 250px;
+    height: 60px;
+    border: 0px;
+    border-radius: 40px;
+    background: radial-gradient( #00FF47, #00eed2);
+}
+
+.Possib__elipse-purple {
+    position: absolute;
+    width: 1251px;
+    height: 1210px;
+    border-radius: 625px;
+    top: 1600px;
+    left: 981px;
+    z-index: -2;
+    background: rgba(158, 0, 255, 1);
+    opacity: 0.5;
+    filter: blur(20px);
+}
+
+.Possib__elipse-accent {
+    position: absolute;
+    z-index: -2;
+    width: 1056px;
+    height: 1021px;
+    border-radius: 528px;
+    top: 1200px;
+    left: -300px;
+    background: rgba(107, 255, 202, 1);
+    opacity: 0.5;
+    filter: blur(20px);
+}

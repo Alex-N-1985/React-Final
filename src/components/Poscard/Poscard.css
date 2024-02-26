@@ -1,0 +1,18 @@
+.poscard {
+    width: 360px;
+    height: 280px;
+    padding: 20px;
+    color: #2F2A37;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.04);
+}
+
+.poscard p {
+    font-size: 14px;
+    width: 360px;
+}
+
+.poscard h3 {
+    font-size: 24px;
+}

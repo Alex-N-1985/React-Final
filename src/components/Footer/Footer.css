@@ -3,6 +3,8 @@ footer {
     border: 1px solid black;
     height: 400px;
     background-color: #F3F6EF;
+    z-index: 2;
+    opacity: 1;
 }
 
 .footer__high {
