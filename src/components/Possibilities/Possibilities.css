@@ -5,6 +5,7 @@
     align-items: center;
     background: #F3F6EF;
     opacity: 0.8;
+    z-index: 2;
 }
 
 .Possibil  h2 {

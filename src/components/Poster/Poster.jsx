@@ -1,8 +1,12 @@
 import "./Poster.css";
 
 import postImg from "../../assets/images/ilustration_1.png";
+// import { useState } from "react";
 
 const Poster = () => {
+
+    // const [openModal, setOpenModal] = useState(true);
+
     return <aside>
         <div className="poster">
             <h2>Ed Space Ваши знания и экспертность обретут здесь форму</h2>
