@@ -5,12 +5,12 @@ import ilustration from "../../assets/images/ilustration_2.png";
 import Tag from './../Tag/Tag';
 import PropCard from "./PropCard";
 
-const Proposal = ({
-    setOpenModal,
-    openModal,
-    setBtnActive,
-    btnActive
-}) => {
+import { MainContext } from "../../pages/Home";
+import { useContext } from "react";
+
+const Proposal = () => {
+
+    const { openModal, setOpenModal, btnActive, setBtnActive } = useContext(MainContext);
 
     let n = tagData.length;
     const arr = [];

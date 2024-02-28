@@ -1,13 +1,14 @@
 import "./Poster.css";
 
+import { MainContext } from "../../pages/Home";
+import { useContext } from "react";
+
 import postImg from "../../assets/images/ilustration_1.png";
 
-const Poster = ({
-    setOpenModal,
-    openModal,
-    setBtnActive,
-    btnActive
-}) => {
+const Poster = () => {
+
+    const { openModal, setOpenModal, btnActive, setBtnActive } = useContext(MainContext);
+
     return <aside>
         <div className="poster">
             <h2>Ed Space Ваши знания и экспертность обретут здесь форму</h2>

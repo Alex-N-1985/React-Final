@@ -2,15 +2,15 @@ import { useState } from "react";
 
 import "./modal.css";
 
+import { MainContext } from "../../pages/Home";
+import { useContext } from "react";
+
 import MLogo from "../../assets/images/logo_EdSpase.png";
 import MClose from "../../assets/images/cancel.png";
 
-const Modal = ({
-    setOpenModal,
-    openModal,
-    setBtnActive,
-    btnActive
-}) => {
+const Modal = () => {
+
+    const { openModal, setOpenModal, btnActive, setBtnActive } = useContext(MainContext);
 
     const [name, setName] = useState("");
     const [orgname, setOrgName] = useState("");

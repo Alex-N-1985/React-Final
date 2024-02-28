@@ -3,12 +3,13 @@ import "./ForYou.css";
 import cardData from "../../assets/datas/foryoudata.json";
 import FYCard from "../FYCard/FYCard";
 
-const ForYou = ({
-    setOpenModal,
-    openModal,
-    setBtnActive,
-    btnActive
-}) => {
+import { MainContext } from "../../pages/Home";
+import { useContext } from "react";
+
+const ForYou = () => {
+    
+    const { openModal, setOpenModal, btnActive, setBtnActive } = useContext(MainContext);
+
     return <section className="foryou">
         <h2>Точно подойдет для:</h2>
         <div className="foryou__container">

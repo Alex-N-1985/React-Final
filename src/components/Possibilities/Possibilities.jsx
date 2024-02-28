@@ -2,12 +2,12 @@ import "./Possibilities.css";
 import PosCards from "../../assets/datas/possibilities.json";
 import PosCard from "../Poscard/Poscard";
 
-const Possibilities = ({
-    setOpenModal,
-    openModal,
-    setBtnActive,
-    btnActive
-}) => {
+import { MainContext } from "../../pages/Home";
+import { useContext } from "react";
+
+const Possibilities = () => {
+
+    const { openModal, setOpenModal, btnActive, setBtnActive } = useContext(MainContext);
 
     const cardData = [];
     let n = PosCards.length;
