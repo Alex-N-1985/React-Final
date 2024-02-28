@@ -2,7 +2,12 @@ import "./Possibilities.css";
 import PosCards from "../../assets/datas/possibilities.json";
 import PosCard from "../Poscard/Poscard";
 
-const Possibilities = () => {
+const Possibilities = ({
+    setOpenModal,
+    openModal,
+    setBtnActive,
+    btnActive
+}) => {
 
     const cardData = [];
     let n = PosCards.length;
@@ -22,7 +27,7 @@ const Possibilities = () => {
                 />
                 )}
         </div>
-        <button className="btnTryFree">ПОПРОБОВАТЬ БЕСПЛАТНО</button>
+        <button className="btnTryFree" onClick={e => setOpenModal(true)} disabled={!btnActive} >ПОПРОБОВАТЬ БЕСПЛАТНО</button>
         <div className="Possib__elipse-purple"></div>
         <div className="Possib__elipse-accent"></div>
     </section>   

@@ -7,7 +7,9 @@ import MClose from "../../assets/images/cancel.png";
 
 const Modal = ({
     setOpenModal,
-    openModal
+    openModal,
+    setBtnActive,
+    btnActive
 }) => {
 
     const [name, setName] = useState("");
@@ -37,6 +39,7 @@ const Modal = ({
                 phone
             };
             console.log(data);
+            setBtnActive(false);
             closeHandler();
         }
     }

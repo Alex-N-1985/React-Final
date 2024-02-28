@@ -52,7 +52,7 @@
     height: 1210px;
     border-radius: 625px;
     top: 1600px;
-    left: 981px;
+    right: -200px;
     z-index: -2;
     background: rgba(158, 0, 255, 1);
     opacity: 0.5;

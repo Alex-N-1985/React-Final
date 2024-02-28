@@ -5,7 +5,12 @@ import ilustration from "../../assets/images/ilustration_2.png";
 import Tag from './../Tag/Tag';
 import PropCard from "./PropCard";
 
-const Proposal = () => {
+const Proposal = ({
+    setOpenModal,
+    openModal,
+    setBtnActive,
+    btnActive
+}) => {
 
     let n = tagData.length;
     const arr = [];
@@ -23,7 +28,7 @@ const Proposal = () => {
             <p className="proposal__startschool-p">Или разверните корпоративный учебный портал уже сегодня.</p>
             <h4>Цена 250 рублей за 1 ученика в месяц</h4>
             <p className="proposal__startschool-p1">Все готово для запуска. Попробуйте 7-дневный демо-доступ.</p>
-            <button>ПОПРОБОВАТЬ БЕСПЛАТНО</button>
+            <button onClick={e => setOpenModal(true)} disabled={!btnActive} >ПОПРОБОВАТЬ БЕСПЛАТНО</button>
         </div>
         <div className="proposal__foryou">
             <div className="proposal__foryou-container">
