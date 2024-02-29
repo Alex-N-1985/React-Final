@@ -1,6 +1,6 @@
 import "./Poster.css";
 
-import { MainContext } from "../../pages/Home";
+import { MainContext } from "../../App";
 import { useContext } from "react";
 
 import postImg from "../../assets/images/ilustration_1.png";
@@ -16,7 +16,7 @@ const Poster = () => {
             <button onClick={e => setOpenModal(true)} disabled={!btnActive} >ПОПРОБОВАТЬ БЕСПЛАТНО</button>
         </div>
         <img src={postImg} alt="" />
-        <div className="poster__elipse"></div>
+        {/* <div className="poster__elipse"></div> */}
     </aside>
 }
 

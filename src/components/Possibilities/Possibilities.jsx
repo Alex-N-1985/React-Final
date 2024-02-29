@@ -2,7 +2,7 @@ import "./Possibilities.css";
 import PosCards from "../../assets/datas/possibilities.json";
 import PosCard from "../Poscard/Poscard";
 
-import { MainContext } from "../../pages/Home";
+import { MainContext } from "../../App";
 import { useContext } from "react";
 
 const Possibilities = () => {
@@ -21,6 +21,7 @@ const Possibilities = () => {
         <div className="poscards__container">
                 {cardData.map((item, index) => <PosCard 
                 key = {index}
+                name = {item.name}
                 imgs = {item.image}
                 title = {item.title}
                 text = {item.text}
@@ -28,8 +29,8 @@ const Possibilities = () => {
                 )}
         </div>
         <button className="btnTryFree" onClick={e => setOpenModal(true)} disabled={!btnActive} >ПОПРОБОВАТЬ БЕСПЛАТНО</button>
-        <div className="Possib__elipse-purple"></div>
-        <div className="Possib__elipse-accent"></div>
+        {/* <div className="Possib__elipse-purple"></div>
+        <div className="Possib__elipse-accent"></div> */}
     </section>   
 }
 

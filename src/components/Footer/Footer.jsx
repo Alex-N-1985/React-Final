@@ -7,11 +7,12 @@ import vkEmblem from "../../assets/images/VKEmblem.svg";
 import telEmblem from "../../assets/images/TelegrEmblem.svg";
 
 import footerItems from "../../assets/datas/footermenudata.json";
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return <footer>
         <div className="footer__high">
-            <img className="footer__high-logo" src={fLogo} alt="" />
+            <NavLink to="/"><img className="footer__high-logo" src={fLogo} alt="" /></NavLink>
             <div className="footer__high-menu">
                 {footerItems.map((item, index) => <FooterItem key={index} name={item.name} data={item.data} />) }
             </div>            

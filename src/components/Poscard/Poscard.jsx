@@ -1,9 +1,10 @@
 import "./Poscard.css";
+import { NavLink } from 'react-router-dom';
 
-const PosCard = ({imgs, title, text}) => {
+const PosCard = ({name, imgs, title, text}) => {
 
     return <div className="poscard">
-        <img src={imgs} alt="" />
+        <NavLink to={`/possib/${name}`}><img src={imgs} alt="" /></NavLink>
         <h3>{title}</h3>
         <p>{text}</p>
     </div>

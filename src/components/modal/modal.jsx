@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./modal.css";
 
-import { MainContext } from "../../pages/Home";
+import { MainContext } from "../../App";
 import { useContext } from "react";
 
 import MLogo from "../../assets/images/logo_EdSpase.png";

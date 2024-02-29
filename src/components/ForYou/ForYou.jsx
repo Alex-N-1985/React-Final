@@ -3,7 +3,7 @@ import "./ForYou.css";
 import cardData from "../../assets/datas/foryoudata.json";
 import FYCard from "../FYCard/FYCard";
 
-import { MainContext } from "../../pages/Home";
+import { MainContext } from "../../App";
 import { useContext } from "react";
 
 const ForYou = () => {

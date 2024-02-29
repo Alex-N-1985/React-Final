@@ -5,7 +5,7 @@ import ilustration from "../../assets/images/ilustration_2.png";
 import Tag from './../Tag/Tag';
 import PropCard from "./PropCard";
 
-import { MainContext } from "../../pages/Home";
+import { MainContext } from "../../App";
 import { useContext } from "react";
 
 const Proposal = () => {
