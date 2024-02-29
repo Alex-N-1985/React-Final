@@ -16,7 +16,6 @@ const Poster = () => {
             <button onClick={e => setOpenModal(true)} disabled={!btnActive} >ПОПРОБОВАТЬ БЕСПЛАТНО</button>
         </div>
         <img src={postImg} alt="" />
-        {/* <div className="poster__elipse"></div> */}
     </aside>
 }
 

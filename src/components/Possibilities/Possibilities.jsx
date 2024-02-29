@@ -22,15 +22,13 @@ const Possibilities = () => {
                 {cardData.map((item, index) => <PosCard 
                 key = {index}
                 name = {item.name}
-                imgs = {item.image}
+                imgs = {`./images/Possibs/${item.image}`}
                 title = {item.title}
                 text = {item.text}
                 />
                 )}
         </div>
         <button className="btnTryFree" onClick={e => setOpenModal(true)} disabled={!btnActive} >ПОПРОБОВАТЬ БЕСПЛАТНО</button>
-        {/* <div className="Possib__elipse-purple"></div>
-        <div className="Possib__elipse-accent"></div> */}
     </section>   
 }
 

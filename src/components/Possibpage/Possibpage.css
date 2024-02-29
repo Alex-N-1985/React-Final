@@ -1,0 +1,32 @@
+.posibpage {
+    width: 1515px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F3F6EF;
+    z-index: 2;
+    color: #2F2A37;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.04);
+}
+
+.posibpage p {
+    width: 95%;
+    padding: 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.posibpage h3 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.posibpage p a {
+    text-decoration: none;
+    color: purple;
+}

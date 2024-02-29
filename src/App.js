@@ -15,7 +15,7 @@ function App() {
   const [btnActive, setBtnActive] = useState(true);
 
   return <MainContext.Provider value={{openModal, setOpenModal, btnActive, setBtnActive}}>
-    <div className='page'>
+    <div className='App'>
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>} />

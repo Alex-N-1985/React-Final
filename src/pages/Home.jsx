@@ -12,6 +12,9 @@ const Home = () => {
       <ForYou />
       <Possibilities />
       <Proposal />
+      <div className="poster__elipse"></div>
+      <div className="Possib__elipse-purple"></div>
+      <div className="Possib__elipse-accent"></div>
       <Modal />
     </div>
 }
