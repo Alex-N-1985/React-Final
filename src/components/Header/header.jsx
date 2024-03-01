@@ -9,8 +9,9 @@ const Header = () => {
         <div className="hlogo"><NavLink to="/"><img src={headLogo} alt="" /></NavLink></div>
         <ul className="hmenu">
             <li><NavLink to="/possibs">Возможности</NavLink></li>
-            <li><a href="">Стоимость</a></li>
-            <li><a href="">Контакты</a></li>
+            <li>Стоимость</li>
+            <li>Контакты</li>
+            <li><NavLink to="/weather">Погода</NavLink></li>
         </ul>
         <div className="langsel">
             RU <img src={langVector} alt="" />            

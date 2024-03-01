@@ -7,6 +7,7 @@ import Header from './components/Header/header';
 import Footer from './components/Footer/Footer';
 import Possibs from './pages/Possibs';
 import Possib from './pages/Possib';
+import WeatherPage from './pages/Weatherpage';
 
 export const MainContext = createContext({});
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/possibs" element={<Possibs/>} />
         <Route path='/possib/:name' element={<Possib/>} />
+        <Route path='/weather' element={<WeatherPage/>} />
       </Routes>
       <Footer/>
     </div>
