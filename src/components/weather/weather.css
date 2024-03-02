@@ -21,7 +21,6 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    /* border: 1px solid black; */
     padding: 10px;
 }
 
@@ -41,4 +40,25 @@
     background-color: lightgray;
     border: 1px solid gray;
     border-radius: 0.6rem;
+}
+
+.weather h2 {
+    font-size: 2rem;
+    color: #2F2A37;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.weather__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.weather__card-data {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
