@@ -7,7 +7,6 @@ const WeatherCard = ({ city, temperature, cloudiness, pressure, icon }) => {
             <p>Температура: {temperature}</p>
             <p>Атмосферное давление: {pressure}</p>
             <p>Облачность: {cloudiness} <br/><img src={`https://openweathermap.org/img/wn/${icon}@2x.png`} alt={cloudiness} /></p>
-            
         </div>
     </div>
 }
